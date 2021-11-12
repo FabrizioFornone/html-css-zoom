@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -33,16 +33,16 @@ body {
 /* Container */
 
 .container-top {
-    height: 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .container-middle {
-    height: calc(100vh - 110px - 60px);
-    background-color: rgba(204, 204, 204, 0.233);
-    margin: 30px;
+  height: calc(100vh - 110px - 60px);
+  background-color: rgba(204, 204, 204, 0.233);
+  margin: 30px;
 }
 
 footer {
@@ -55,7 +55,6 @@ footer {
 }
 
 /* Top*/
-
 
 .container-top div {
   margin: 0 2px;
@@ -77,26 +76,26 @@ footer {
   font-weight: 800;
 }
 
-
 /* Footer */
 
-.footer-left div, .footer-middle div, .footer-right div {
+.footer-left div,
+.footer-middle div,
+.footer-right div:no-button {
   margin: 0 5px;
 }
 
-.footer-left, .footer-right {
-    width: 25%;
+.footer-left,
+.footer-right {
+  width: 25%;
 }
 
-.footer-middle {
-    f
-}
+/* .footer-middle {
+    flex-grow: 1;
+} */
 
 .footer-right {
-    justify-content: end;
+  justify-content: end;
 }
-
-
 
 .text-icon {
   padding: 4px 0;
@@ -117,7 +116,6 @@ footer {
 }
 
 /* Footer Middle */
-
 
 .icon-cam::before {
   content: "\f03d";
@@ -141,17 +139,18 @@ footer {
 }
 
 .icon-polling::before {
-  content: "\f500";
+  content: "\f080";
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
   font-size: 22px;
 }
 
 .icon-screen::before {
-  content: "\f500";
+  content: "\f14d";
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
   font-size: 22px;
+  color: rgb(82, 255, 47);
 }
 
 .icon-chat::before {
@@ -191,13 +190,14 @@ footer {
 
 /* Footer Right */
 
-
-
 .button-end {
-    padding-right: 10px;
-
 }
 
 button {
-    
+  border: none;
+  height: 60px;
+  color: red;
+  background-color: rgba(204, 204, 204, 0.233);
+  font-size: 12px;
+  padding: 0 10px;
 }
