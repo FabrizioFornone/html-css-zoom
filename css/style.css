@@ -97,9 +97,84 @@ footer {
   font-size: 22px;
 }
 
+.footer-middle div {
+    margin: 0 5px;
+  }
+
 .icon-cam::before {
     content: "\f03d";
     font-family: "Font Awesome 5 Free";
     font-weight: 800;
     font-size: 22px;
 }
+
+.icon-cam::before {
+    content: "\f03d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-invite::before {
+    content: "\f234";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-partecipants::before {
+    content: "\f500";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-polling::before {
+    content: "\f500";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-screen::before {
+    content: "\f500";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-chat::before {
+    content: "\f075";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-record::before {
+    content: "\f51f";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-rooms::before {
+    content: "\f500";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-squares::before {
+    content: "\f009";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.icon-more::before {
+    content: "\f141";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    font-size: 22px;
+}
+
