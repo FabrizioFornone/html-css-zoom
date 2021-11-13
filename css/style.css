@@ -28,28 +28,34 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* Container */
 
+.container-top, .container-middle, footer {
+  display: flex;
+}
+
 .container-top {
   height: 50px;
-  display: flex;
+  width: 100%;
   justify-content: flex-end;
   align-items: center;
 }
 
 .container-middle {
   height: calc(100vh - 110px - 60px);
-  background-color: rgba(204, 204, 204, 0.233);
-  margin: 30px;
+  width: 1400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
   width: 100%;
   height: 60px;
   background-color: rgba(204, 204, 204, 0.233);
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -76,6 +82,33 @@ footer {
   font-weight: 800;
 }
 
+/* Middle */
+
+.img-box {
+  position: relative;
+}
+
+.img-box > img {
+  width: 195px;
+}
+
+.img-box > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background:rgba(204, 204, 204, 0.233);
+  line-height: 1;
+  padding: 2px;
+}
+
+.img-box span::before {
+  content: "\f131";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  font-size: 10px;
+  padding: 0 5px;
+}
+
 /* Footer */
 
 .footer-left div,
@@ -89,16 +122,12 @@ footer {
   width: 25%;
 }
 
-/* .footer-middle {
-    flex-grow: 1;
-} */
-
 .footer-right {
   justify-content: end;
 }
 
 .text-icon {
-  padding: 4px 0;
+  padding-top: 4px;
 }
 
 .chevron::before {
@@ -190,14 +219,16 @@ footer {
 
 /* Footer Right */
 
-.button-end {
-}
-
-button {
+.footer-right > button {
   border: none;
   height: 60px;
-  color: red;
   background-color: rgba(204, 204, 204, 0.233);
   font-size: 12px;
   padding: 0 10px;
 }
+
+button > a {
+  color: red;
+  text-decoration: none;
+}
+
