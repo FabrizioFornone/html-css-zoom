@@ -46,12 +46,13 @@ body {
 
 .container-middle {
   height: calc(100vh - 110px);
-  width: 1400px;
-  padding: 40px 0;
+  width: 100%;
+  padding: 40px 40px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  overflow: auto;
 }
 
 footer {
