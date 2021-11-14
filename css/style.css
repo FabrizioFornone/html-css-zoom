@@ -74,6 +74,10 @@ footer {
   color: #fff;
 }
 
+.container-top a:hover {
+  color: rgb(82, 255, 47);
+}
+
 .container-top a:nth-child(1)::before {
   content: "\f00a";
   font-family: "Font Awesome 5 Free";
@@ -94,7 +98,7 @@ footer {
 }
 
 .img-box > img {
-  width: 195px;
+  width: 200px;
 }
 
 .img-box > span {
@@ -121,10 +125,18 @@ footer a {
   color: #fff;
 }
 
+footer a:hover {
+  color: rgb(82, 255, 47);
+}
+
 .footer-left a,
 .footer-middle a,
 .footer-right a:no-button {
   margin: 0 5px;
+}
+
+.footer-left a:first-child{
+  padding-left: 8px;
 }
 
 .footer-left,
@@ -132,12 +144,14 @@ footer a {
   width: 25%;
 }
 
-.footer-right {
-  justify-content: end;
-}
-
 .text-icon {
   padding-top: 4px;
+}
+
+/* Footer Left */
+
+.footer-right {
+  justify-content: end;
 }
 
 .chevron::before {
@@ -154,7 +168,6 @@ footer a {
   font-size: 22px;
 }
 
-/* Footer Middle */
 
 .icon-cam::before {
   content: "\f03d";
@@ -162,6 +175,8 @@ footer a {
   font-weight: 800;
   font-size: 22px;
 }
+
+/* Footer Middle */
 
 .icon-invite::before {
   content: "\f234";
@@ -189,7 +204,6 @@ footer a {
   font-family: "Font Awesome 5 Free";
   font-weight: 800;
   font-size: 22px;
-  color: rgb(82, 255, 47);
 }
 
 .icon-chat::before {
@@ -239,5 +253,13 @@ footer a {
 
 button > a {
   color: red;
+}
+
+button:hover {
+  background-color: rgba(204, 204, 204, 0.133);
+}
+
+button > a:hover {
+  color: #fff;
 }
 
