@@ -8,18 +8,6 @@ body {
   font-size: 12px;
 }
 
-/* Utility Class */
-
-[class*="footer"] {
-  display: flex;
-  align-items: center;
-}
-
-[class*="icon"] {
-  text-align: center;
-}
-
-
 /* Container */
 
 .container-big {
@@ -33,7 +21,9 @@ body {
   align-items: center;
 }
 
-.container-top, .container-middle, footer {
+.container-top,
+.container-middle,
+footer {
   display: flex;
 }
 
@@ -105,7 +95,7 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  background:rgba(204, 204, 204, 0.233);
+  background: rgba(204, 204, 204, 0.233);
   line-height: 1;
   padding: 2px;
 }
@@ -129,19 +119,28 @@ footer a:hover {
   color: rgb(82, 255, 47);
 }
 
+[class*="footer"] {
+  display: flex;
+  align-items: center;
+}
+
 .footer-left a,
 .footer-middle a,
 .footer-right a:no-button {
   margin: 0 5px;
 }
 
-.footer-left a:first-child{
+.footer-left a:first-child {
   padding-left: 8px;
 }
 
 .footer-left,
 .footer-right {
   width: 25%;
+}
+
+[class*="icon"] {
+  text-align: center;
 }
 
 .text-icon {
@@ -167,7 +166,6 @@ footer a:hover {
   font-weight: 800;
   font-size: 22px;
 }
-
 
 .icon-cam::before {
   content: "\f03d";
@@ -262,4 +260,3 @@ button:hover {
 button > a:hover {
   color: #fff;
 }
-
