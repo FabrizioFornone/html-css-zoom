@@ -41,7 +41,6 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
-  overflow: auto;
 }
 
 footer {
@@ -127,6 +126,10 @@ footer a:hover {
   align-items: center;
 }
 
+.footer-right {
+  justify-content: end;
+}
+
 .footer-left a,
 .footer-middle a,
 .footer-right a:no-button {
@@ -146,15 +149,13 @@ footer a:hover {
   text-align: center;
 }
 
+
 .text-icon {
   padding-top: 4px;
 }
 
 /* Footer Left */
 
-.footer-right {
-  justify-content: end;
-}
 
 .chevron::before {
   content: "\f077";
